@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-color: #7cc6fe;
+  background-color: #f7c3fb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .app {
-  background-color: #252d4a;
+  background-color: #ca5ece;
   width: 450px;
   min-height: 200px;
   height: min-content;
@@ -53,17 +53,6 @@ body {
   margin-bottom: 12px;
 }
 
-.timer-text {
-  background: rgb(230, 153, 12);
-  padding: 15px;
-  margin-top: 20px;
-  margin-right: 20px;
-  border: 5px solid rgb(255, 189, 67);
-  border-radius: 15px;
-  text-align: center;
-}
-
-/* ANSWERS/RIGHT SECTION */
 .answer-section {
   width: 100%;
   display: flex;
@@ -74,27 +63,21 @@ body {
 button {
   width: 100%;
   font-size: 16px;
-  color: #ffffff;
-  background-color: #252d4a;
+  color: #000000;
+  background-color: #f7c3fb;
   border-radius: 15px;
   display: flex;
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #234668;
+  border: 5px solid #7a2c81;
   cursor: pointer;
-}
-
-.correct {
-  background-color: #2f922f;
-}
-
-.incorrect {
-  background-color: #ff3333;
+  transition: 0.2s ease-in;
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #872ba3;
+  color: #ffffff;
 }
 
 button:focus {
