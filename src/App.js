@@ -105,7 +105,7 @@ export default function App() {
     <div className="app">
       {showScore ? (
         <div className="score-section">
-          You scored {score} out of {questions.length}
+          Ви отримали {score} з {questions.length} пуська поїнтів!
         </div>
       ) : (
         <>
